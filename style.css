@@ -34,6 +34,7 @@ body, html{
     background-color: aliceblue;
     flex: 1;
     border: 1px solid black;
+    transition: all .07s ease;
 }
 
 .sub-tile {
@@ -53,4 +54,8 @@ body, html{
 
 .sub-tile.right {
     margin-left: -1vw;
+}
+
+.playing {
+    transform: scale(1.03);
 }
