@@ -42,6 +42,8 @@ body, html{
     height: 22vh;
     width: 3vw;
     flex: 1;
+    transition: all .07s ease;
+
 }
 
 .sub-tile.left {
@@ -58,4 +60,6 @@ body, html{
 
 .playing {
     transform: scale(1.03);
+    border-color: white;
+    box-shadow: 0 0 1rem white;
 }
